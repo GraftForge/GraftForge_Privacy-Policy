@@ -104,7 +104,7 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 
 If you have any questions or suggestions about our Privacy Policy, please contact us at:
 
-* **Email:** [Contact email to be confirmed]
+* **Email:** studio@graftforge.games
 * **Developer Name:** GraftForge
 
 ---
@@ -113,7 +113,7 @@ If you have any questions or suggestions about our Privacy Policy, please contac
 
 The following items are deliberately unresolved and must be completed before this policy is treated as the production privacy policy:
 
-* legal developer/company identity and contact email;
+* legal developer/company identity;
 * Google Play target audience and resulting children's/privacy treatment;
 * production crash-reporting and telemetry services and their data flows;
 * final Google Mobile Ads configuration and consent handling;
