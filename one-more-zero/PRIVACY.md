@@ -2,7 +2,7 @@
 
 **Last updated:** 4 October 2026
 
-**GraftForge** ("we," "our," or "us") operates the **One More Zero** mobile application (the "Service").
+**GraftForge Games** ("we," "our," or "us") operates the **One More Zero** mobile application (the "Service").
 
 This Privacy Policy informs you of our policies regarding the collection, use, and disclosure of personal information when you use our Service.
 
@@ -105,7 +105,7 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 If you have any questions or suggestions about our Privacy Policy, please contact us at:
 
 * **Email:** studio@graftforge.games
-* **Developer Name:** GraftForge
+* **Developer Name:** GraftForge Games
 
 ---
 
@@ -113,7 +113,6 @@ If you have any questions or suggestions about our Privacy Policy, please contac
 
 The following items are deliberately unresolved and must be completed before this policy is treated as the production privacy policy:
 
-* legal developer/company identity;
 * Google Play target audience and resulting children's/privacy treatment;
 * production crash-reporting and telemetry services and their data flows;
 * final Google Mobile Ads configuration and consent handling;
