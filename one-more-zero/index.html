@@ -15,7 +15,7 @@
 <body>
 <main>
 <h1>Privacy Policy</h1>
-<p><strong>Last updated:</strong> 4 October 2026</p>
+<p><strong>Last updated:</strong> 7 October 2026</p>
 <p><strong>GraftForge Games</strong> ("we," "our," or "us") operates the <strong>One More Zero</strong> mobile application (the "Service").</p>
 <p>This Privacy Policy informs you of our policies regarding the collection, use, and disclosure of personal information when you use our Service.</p>
 <p>By using the Service, you agree to the collection and use of information in accordance with this policy.</p>
@@ -45,11 +45,11 @@
 <p>One More Zero may offer optional in-app purchases through Google Play.</p>
 <p>Payments are processed by Google Play. We do not directly receive or store your payment card or bank account details.</p>
 <p>The app may receive information necessary to determine whether a purchase has been successfully completed and whether you are entitled to purchased features.</p>
-<p class="note"><strong>Pre-release note:</strong> final entitlement storage and purchase-reconciliation behaviour will be reflected here before production release.</p>
+<p>Google Play Billing is used to process purchases. Permanent entitlements are reconciled against purchases available through Google Play so that eligible purchases can be restored. Consumable time-skip purchases are completed through Google Play after the purchased game benefit is applied.</p>
 
 <h2>4. Data Encryption in Transit</h2>
 <p>All communications between the Google Mobile Ads SDK and advertising servers are encrypted in transit using standard Transport Layer Security (TLS/HTTPS) protocols.</p>
-<p>Other production network services will be reviewed before release and this policy updated where necessary.</p>
+<p>The app also connects to an external time service over HTTPS to obtain trusted UTC time for validating offline progress. The app does not send game progress or account information as part of this request.</p>
 
 <h2>5. Children's Privacy</h2>
 <p class="note"><strong>Pre-release note:</strong> this section will be finalised before production release once the Google Play target audience for One More Zero has been confirmed.</p>
@@ -57,11 +57,11 @@
 
 <h2>6. Managing Your Ad &amp; Privacy Preferences</h2>
 <p>You can manage advertising and privacy preferences through the controls provided by Android and your Google account. Available controls vary by Android version, account configuration, and jurisdiction.</p>
-<p>Where applicable, the app will also provide any consent or privacy controls required for advertising in your jurisdiction.</p>
+<p>Where applicable, the app uses Google's User Messaging Platform consent flow before requesting advertisements. Advertising is not requested unless the consent system reports that ads may be requested.</p>
 
 <h2>7. Analytics, Diagnostics &amp; Crash Reporting</h2>
-<p class="note"><strong>Pre-release note:</strong> this section will be finalised before production release.</p>
-<p>Production crash reporting and minimal application telemetry are still being selected and implemented. This policy will identify the production services used and the data they process before One More Zero is released publicly.</p>
+<p>One More Zero does not currently integrate a separate developer-controlled analytics or crash-reporting service.</p>
+<p>Third-party services integrated into the app, including Google Mobile Ads and Google Play, may process diagnostics, performance, usage, purchase, and anti-fraud information as described in their own privacy policies.</p>
 
 <h2>8. Data Retention and Deletion</h2>
 <p>Game progress and settings stored locally by One More Zero remain on your device until they are removed through application functionality, the app's storage is cleared, or the app is uninstalled, subject to any device or operating-system backup behaviour.</p>
@@ -82,9 +82,7 @@
 <p>The following items are deliberately unresolved and must be completed before this policy is treated as the production privacy policy:</p>
 <ul>
 <li>Google Play target audience and resulting children's/privacy treatment;</li>
-<li>production crash-reporting and telemetry services and their data flows;</li>
-<li>final Google Mobile Ads configuration and consent handling;</li>
-<li>final Google Play Billing entitlement/reconciliation implementation;</li>
+<li>any production crash-reporting or telemetry service introduced before release;</li>
 <li>any other production SDK or network service introduced before release.</li>
 </ul>
 </main>
