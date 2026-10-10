@@ -1,0 +1,22 @@
+schema_version: "1.0"
+project_id: graftforge-games-privacy
+project_name: GraftForge Games Privacy Site
+repository: GraftJ80/GraftForge-Privacy-Policy-Staging
+branch: main
+authority:
+  project_source: GraftJ80/GraftForge-Privacy-Policy-Staging
+  continuity_store: GraftJ80/AI-Memory
+  continuity_project_id: graftforge-games-privacy
+  central_event_path: memory/projects/graftforge-games-privacy/events.jsonl
+related_repositories:
+  main_website: GraftJ80/GraftForge-website-staging
+  central_memory: GraftJ80/AI-Memory
+public_urls:
+  privacy: https://privacy.graftforge.games/
+  one_more_zero_policy: https://privacy.graftforge.games/one-more-zero/
+agent_instructions: AGENTS.md
+continuity:
+  status: integration_initialized
+  active_work: Privacy disclosures, game policy consistency, and independent deployment
+  handoff_policy: Record governed session ownership, open issues and handovers in the central store; this file is a discovery pointer only
+  retrieval: Read this file and AGENTS.md; inspect remote main; retrieve authorized project-scoped continuity from AI-Memory
