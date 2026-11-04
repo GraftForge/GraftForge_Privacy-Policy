@@ -8,17 +8,17 @@
 
 The core game does not require an account, name, email address or precise location. Game progress and settings are stored locally on your device. We do not operate a developer-controlled server storing your individual game saves.
 
-If you voluntarily contact support or share a diagnostic export, the information you send is processed to respond to your request.
+If you voluntarily contact support or share a diagnostic export, we use the information you send to respond to your request. Our lawful basis for handling voluntary support correspondence is our legitimate interest in providing support and resolving problems. We may also retain records where needed to meet a legal obligation.
 
 ## 2. Third-Party Services & Advertising
 
 One More Zero includes optional rewarded advertisements. The advertising services differ by installed version:
 
-- **Released version 00.01.02:** Google Mobile Ads (AdMob) is used to serve rewarded advertisements.
-- **Version 00.01.04 currently in Internal testing:** **Unity LevelPlay** mediates rewarded advertisements, with **Unity Ads** configured as an advertising network. AdMob is not configured as a rewarded-ad serving network in this version.
-- **Consent management in version 00.01.04:** Google's **User Messaging Platform (UMP)** is still used to display and record applicable advertising privacy choices. Some Google Mobile Ads SDK components remain bundled for this purpose, although AdMob is no longer the rewarded-ad provider.
+- **Versions up to and including 00.01.03:** Google Mobile Ads (**AdMob**) serves rewarded advertisements.
+- **From version 00.01.04:** **Unity LevelPlay** mediates rewarded advertisements, initially through **Unity Ads**. AdMob is not configured as a rewarded-ad serving network in this version.
+- **Consent management from 00.01.04:** Google's **User Messaging Platform (UMP)** continues to display and record applicable advertising consent and privacy choices. Google Mobile Ads SDK components remain bundled for this purpose, although AdMob is no longer the rewarded-ad provider.
 
-Advertising SDKs and consent services may process device identifiers (such as the Android advertising ID and App Set ID), IP-derived approximate location, ad impressions and interactions, technical performance and error information, and data required for fraud prevention, subject to their own privacy policies and the applicable consent choices. The precise processing depends on the provider, your location and settings.
+Advertising SDKs and consent services may process device identifiers (such as the Android advertising ID and App Set ID), IP-derived approximate location, ad impressions and interactions, technical performance and error information, and data required for fraud prevention, subject to their own privacy policies and the applicable consent choices. The precise processing depends on the provider, your location and settings. Where consent is legally required for advertising processing, the relevant consent choices are requested separately; providers explain any other applicable lawful bases in their own policies.
 
 Provider policies:
 
@@ -32,7 +32,9 @@ Optional purchases are processed through **Google Play Billing**. We do not rece
 
 ## 4. Network Communications and Security
 
-The app connects to an external trusted-time service over HTTPS to validate offline progress; it does not send your game save or account information in that request. Advertising and billing SDKs communicate with their own providers under the security practices described in their respective policies.
+The app contacts an external trusted-time service (timeapi.io) over HTTPS to validate offline progress. The time service can receive your IP address and standard network-request information, but the request does not include your game save or account information. Advertising and billing SDKs communicate with their own providers under the security practices described in their respective policies.
+
+Advertising, billing, consent and trusted-time providers may process information outside the UK. Where international transfers occur, the relevant provider's privacy information explains its handling of those transfers and any safeguards. Contact us if you need help locating that information.
 
 ## 5. Children's Privacy
 
@@ -52,11 +54,13 @@ The app does not currently use a separate developer-controlled analytics or cras
 
 ## 8. Data Retention and Deletion
 
-Locally stored game progress remains on your device until cleared through application functionality, app storage settings or uninstall, subject to any device backup behaviour. Third-party providers apply their own retention and deletion practices. Contact us if you need assistance identifying the relevant provider.
+Locally stored game progress remains on your device until cleared through application functionality, app storage settings or uninstall, subject to any device backup behaviour. Support emails and diagnostic exports sent to us are held for as long as reasonably needed to respond and resolve the issue, or longer where necessary for legal obligations or disputes; we do not set a universal fixed retention period for all enquiries. Third-party providers apply their own retention and deletion practices. Contact us if you need assistance identifying the relevant provider.
 
 ## 9. Your Privacy Rights
 
-Depending on where you live, you may have rights to access, correct, erase, restrict or object to processing of your personal data, and to withdraw consent where applicable. The app has no developer-run user-account database. We can help direct requests concerning third-party advertising or billing data to the relevant provider.
+Depending on where you live, you may have rights to access, correct, erase, restrict or object to processing of your personal data, and to withdraw consent where applicable. Contact us at the address below to exercise these rights. The app has no developer-run user-account database. We can help direct requests concerning third-party advertising or billing data to the relevant provider.
+
+If you have concerns about how your personal data is handled, you can also complain to the UK [Information Commissioner's Office (ICO)](https://ico.org.uk/make-a-complaint/).
 
 ## 10. Changes to This Policy
 
@@ -66,6 +70,3 @@ We may update this policy as the game and its third-party services change. Updat
 
 **GraftForge Games** — [studio@graftforge.games](mailto:studio@graftforge.games)
 
----
-
-**Release review outstanding:** Verify the published consent message covers Unity Ads and other active partners, verify choice withdrawal on a physical device, confirm the final public ad SDK configuration and Google Play Data safety declarations, and confirm audience treatment before promoting 00.01.04 beyond Internal testing.
