@@ -1,120 +1,71 @@
 # Privacy Policy
 
-**Last updated:** 4 October 2026
+**Last updated:** 4 November 2026
 
-**GraftForge Games** ("we," "our," or "us") operates the **One More Zero** mobile application (the "Service").
-
-This Privacy Policy informs you of our policies regarding the collection, use, and disclosure of personal information when you use our Service.
-
-By using the Service, you agree to the collection and use of information in accordance with this policy.
-
----
+**GraftForge Games** ("we", "our", or "us") operates the **One More Zero** mobile application. This policy explains the use of information by the app and its third-party services. Advertising consent is requested separately where required; using the game is not itself consent to personalised advertising.
 
 ## 1. Direct Data Collection
 
-Our core application **does not collect, store, or transmit any personal data or personally identifiable information directly**.
+The core game does not require an account, name, email address or precise location. Game progress and settings are stored locally on your device. We do not operate a developer-controlled server storing your individual game saves.
 
-We do not require user accounts, logins, names, email addresses, phone numbers, or precise locations to use the app.
-
-Game progress and settings are stored locally on your device.
-
----
+If you voluntarily contact support or share a diagnostic export, the information you send is processed to respond to your request.
 
 ## 2. Third-Party Services & Advertising
 
-While we do not collect data directly, the app integrates third-party services that may collect information used to identify your device to serve advertisements, provide analytics, and prevent fraud.
+One More Zero includes optional rewarded advertisements. The advertising services differ by installed version:
 
-Our app uses **Google Mobile Ads (AdMob)**.
+- **Released version 00.01.02:** Google Mobile Ads (AdMob) is used to serve rewarded advertisements.
+- **Version 00.01.04 currently in Internal testing:** **Unity LevelPlay** mediates rewarded advertisements, with **Unity Ads** configured as an advertising network. AdMob is not configured as a rewarded-ad serving network in this version.
+- **Consent management in version 00.01.04:** Google's **User Messaging Platform (UMP)** is still used to display and record applicable advertising privacy choices. Some Google Mobile Ads SDK components remain bundled for this purpose, although AdMob is no longer the rewarded-ad provider.
 
-The Google Mobile Ads SDK may automatically collect and process certain data types, including:
+Advertising SDKs and consent services may process device identifiers (such as the Android advertising ID and App Set ID), IP-derived approximate location, ad impressions and interactions, technical performance and error information, and data required for fraud prevention, subject to their own privacy policies and the applicable consent choices. The precise processing depends on the provider, your location and settings.
 
-* **Approximate Location Data:** Derived from IP addresses to deliver geographically relevant ads.
-* **App Interactions & Usage Data:** Information regarding ad views, taps, app launches, and performance metrics.
-* **Diagnostics & Performance Data:** Crash logs, energy usage, and SDK performance statistics.
-* **Device Identifiers:** The Android Advertising ID, App Set ID, and other device IDs used for ad personalization, frequency capping, and anti-fraud measures.
+Provider policies:
 
-For more information on how Google handles and processes your data, please review:
-
-* [Google's Privacy & Terms](https://policies.google.com/privacy)
-* [How Google uses information from sites or apps that use their services](https://policies.google.com/technologies/partner-sites)
-
----
+- [Unity's Game Player and App User Privacy Policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
+- [Google's Privacy Policy](https://policies.google.com/privacy)
+- [How Google uses information from apps using its services](https://policies.google.com/technologies/partner-sites)
 
 ## 3. In-App Purchases
 
-One More Zero may offer optional in-app purchases through Google Play.
+Optional purchases are processed through **Google Play Billing**. We do not receive your card or bank account details. The app receives purchase and entitlement information needed to apply and restore purchased features, and reconcile consumable purchases.
 
-Payments are processed by Google Play. We do not directly receive or store your payment card or bank account details.
+## 4. Network Communications and Security
 
-The app may receive information necessary to determine whether a purchase has been successfully completed and whether you are entitled to purchased features.
-
-**Pre-release note:** final entitlement storage and purchase-reconciliation behaviour will be reflected here before production release.
-
----
-
-## 4. Data Encryption in Transit
-
-All communications between the Google Mobile Ads SDK and advertising servers are encrypted in transit using standard Transport Layer Security (TLS/HTTPS) protocols.
-
-Other production network services will be reviewed before release and this policy updated where necessary.
-
----
+The app connects to an external trusted-time service over HTTPS to validate offline progress; it does not send your game save or account information in that request. Advertising and billing SDKs communicate with their own providers under the security practices described in their respective policies.
 
 ## 5. Children's Privacy
 
-**Pre-release note:** this section will be finalised before production release once the Google Play target audience for One More Zero has been confirmed.
+One More Zero is intended for people aged **13 and over** and is not directed at children under 13. Age-related privacy obligations and Google Play target-audience requirements are reviewed as part of each release.
 
-The app's advertising and privacy configuration will be set consistently with its declared target audience and applicable Google Play requirements.
+## 6. Managing Advertising and Privacy Choices
 
----
+Where applicable, the game presents an advertising consent message and provides **Settings → Privacy Choices** when the consent platform says a privacy-options entry point is required. You may review or withdraw choices using that form. Its availability depends on the published consent message and the consent provider's service.
 
-## 6. Managing Your Ad & Privacy Preferences
+In version 00.01.04, Google UMP manages the form while Unity LevelPlay handles rewarded ads. The app checks the consent provider's ad-request eligibility before initializing LevelPlay. A recorded consent response does **not** necessarily mean you opted into personalised advertising; the consent platform retains the underlying choices. Declining consent does not prevent normal gameplay but may affect advertising availability.
 
-You can manage advertising and privacy preferences through the controls provided by Android and your Google account. Available controls vary by Android version, account configuration, and jurisdiction.
-
-Where applicable, the app will also provide any consent or privacy controls required for advertising in your jurisdiction.
-
----
+You can also manage your device's advertising identifier and related settings in Android. Those device settings are not always a substitute for managing consent choices in the app. If the in-app privacy form is unavailable, contact us using the address below.
 
 ## 7. Analytics, Diagnostics & Crash Reporting
 
-**Pre-release note:** this section will be finalised before production release.
-
-Production crash reporting and minimal application telemetry are still being selected and implemented. This policy will identify the production services used and the data they process before One More Zero is released publicly.
-
----
+The app does not currently use a separate developer-controlled analytics or crash-reporting service. Integrated advertising, billing and platform services may process their own diagnostic, performance, usage and anti-fraud information.
 
 ## 8. Data Retention and Deletion
 
-Game progress and settings stored locally by One More Zero remain on your device until they are removed through application functionality, the app's storage is cleared, or the app is uninstalled, subject to any device or operating-system backup behaviour.
+Locally stored game progress remains on your device until cleared through application functionality, app storage settings or uninstall, subject to any device backup behaviour. Third-party providers apply their own retention and deletion practices. Contact us if you need assistance identifying the relevant provider.
 
-Information processed by third-party services is subject to the retention and deletion policies of those providers.
+## 9. Your Privacy Rights
 
-This section will be updated if One More Zero introduces developer-controlled server-side storage or cloud saves.
+Depending on where you live, you may have rights to access, correct, erase, restrict or object to processing of your personal data, and to withdraw consent where applicable. The app has no developer-run user-account database. We can help direct requests concerning third-party advertising or billing data to the relevant provider.
 
----
+## 10. Changes to This Policy
 
-## 9. Changes to This Privacy Policy
+We may update this policy as the game and its third-party services change. Updates are posted here with the revised date.
 
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date at the top of this document.
+## 11. Contact
 
----
-
-## 10. Contact Us
-
-If you have any questions or suggestions about our Privacy Policy, please contact us at:
-
-* **Email:** studio@graftforge.games
-* **Developer Name:** GraftForge Games
+**GraftForge Games** — [studio@graftforge.games](mailto:studio@graftforge.games)
 
 ---
 
-## Pre-release items still to confirm
-
-The following items are deliberately unresolved and must be completed before this policy is treated as the production privacy policy:
-
-* Google Play target audience and resulting children's/privacy treatment;
-* production crash-reporting and telemetry services and their data flows;
-* final Google Mobile Ads configuration and consent handling;
-* final Google Play Billing entitlement/reconciliation implementation;
-* any other production SDK or network service introduced before release.
+**Release review outstanding:** Verify the published consent message covers Unity Ads and other active partners, verify choice withdrawal on a physical device, confirm the final public ad SDK configuration and Google Play Data safety declarations, and confirm audience treatment before promoting 00.01.04 beyond Internal testing.
