@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="850" viewBox="0 0 1000 850" role="img" aria-label="GraftForge Games">
+<defs>
+<linearGradient id="steel" x1="0" y1="0" x2="0.22" y2="1">
+  <stop offset="0" stop-color="#f7fafc"/><stop offset="0.37" stop-color="#d1e0ec"/>
+  <stop offset="0.67" stop-color="#a6bfce"/><stop offset="1" stop-color="#7692a5"/>
+</linearGradient>
+<linearGradient id="steelText" x1="0" y1="0" x2="0.3" y2="1">
+  <stop offset="0" stop-color="#f5f8fb"/><stop offset="1" stop-color="#d4e2ed"/>
+</linearGradient>
+<linearGradient id="forge" x1="0.15" y1="0" x2="0.75" y2="1">
+  <stop offset="0" stop-color="#b0ff44"/><stop offset="0.5" stop-color="#66f520"/><stop offset="1" stop-color="#25db1b"/>
+</linearGradient>
+<linearGradient id="subtleSheen" x1="0" y1="0" x2="0.8" y2="1">
+  <stop offset="0" stop-color="#ffffff" stop-opacity=".30"/>
+  <stop offset="0.40" stop-color="#ffffff" stop-opacity=".06"/>
+  <stop offset=".41" stop-color="#11252e" stop-opacity=".16"/>
+  <stop offset="1" stop-color="#11252e" stop-opacity=".05"/>
+</linearGradient>
+<filter id="seamPulse" x="-200%" y="-200%" width="500%" height="500%">
+ <feGaussianBlur stdDeviation="13"/>
+</filter>
+</defs>
+
+<g transform="translate(45 42) scale(.79)"><path d="M 308 92 L 902 92 L 765 234 L 379 234 L 241 376 L 236 474 L 304 549 L 488 549 L 518 462 L 373 462 L 499 332 L 739 332 L 557 685 L 225 685 L 61 521 L 68 343 Z" fill="url(#steel)" /><path d="M 308 92 L 902 92 L 765 234 L 379 234 L 241 376 L 236 474 L 304 549 L 488 549 L 518 462 L 373 462 L 499 332 L 739 332 L 557 685 L 225 685 L 61 521 L 68 343 Z" fill="url(#subtleSheen)" opacity=".35" pointer-events="none"/><path d="M 769 332 L 1130 332 L 1048 455 L 831 455 L 805 526 L 1003 526 L 931 643 L 765 643 L 705 801 L 492 968 L 683 407 Z" fill="url(#forge)" /><path d="M 769 332 L 1130 332 L 1048 455 L 831 455 L 805 526 L 1003 526 L 931 643 L 765 643 L 705 801 L 492 968 L 683 407 Z" fill="url(#subtleSheen)" opacity=".26" pointer-events="none" /></g>
+</svg>
